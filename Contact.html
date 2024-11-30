@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #252e52;
+            color: #8b8585;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(63, 63, 161);
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white
+        }
+
+        nav ul li a:hover {
+            color: rgb(103, 171, 189);
+            font-size: 1.10rem;
+
+        }
+
+        footer button {
+            color: rgb(182, 117, 117);
+            margin: 0 1rem;
+            border: 5px solid;
+            border-radius: 10px;
+            font-size: 25px;
+        }
+
+        .btn a:hover {
+            text-decoration: none;
+            background-color: #e2b776;
+            font-size: 1.10rem;
+        }
+
+        /* Contact Info Section */
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .contact-info {
+
+            background-color: white;
+            margin: 0 auto;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+
+        .contact-info h2 {
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+            color: #555;
+        }
+
+        .contact-info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-info li {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 120px;
+            text-align: center;
+            padding: 1rem;
+            background-color: #978697;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+
+        <nav>
+
+            <h1>
+                <div class="left"> Arshlan's Portfolio</div>
+            </h1>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li> <a href="Abut.html">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li> <a href="Project.html">Projects</a></li>
+                    <li> <a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h2>Get in Touch</h2>
+            <ul>
+                <li>
+                    <strong>Phone:</strong> +91-8090-4100-39
+                </li>
+                <li>
+                    <strong>Email:</strong> <a href="mailto:yourname@example.com">karshaan18@gmail.com</a>
+                </li>
+                <li>
+                    <strong>Address:</strong> H.N.228/145, faizabad road near Rakabganj,Gonda, Pin-271001
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Arshlan's Portfolio.</p>
+    </footer>
+</body>
+
+</html>

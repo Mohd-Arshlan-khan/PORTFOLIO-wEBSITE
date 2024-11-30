@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arshlan-Devloper Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(1, 1, 22);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(63, 63, 161);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white
+        }
+
+        nav ul li a:hover {
+            color: rgb(103, 171, 189);
+            font-size: 1.10rem;
+
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 150px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+
+            font-size: 3rem;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .leftSection .btn:hover {
+            background-color: #755f5f;
+            font-size: 1.0rem;
+        }
+
+        .rightSecton img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: rgb(162, 118, 206);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(179, 139, 218);
+        }
+
+        .secondSectio {
+            max-width: 80vw;
+            margin: auto;
+            height: 100vh;
+        }
+
+        .secondSectio {
+            font-size: 1.3rem;
+        }
+
+        .secondSectio .box {
+            background: white;
+            width: 46vw;
+            height: 2px;
+            margin: 46px 0;
+            display: flex;
+        }
+
+        .secondSectio .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 150px;
+        }
+
+        .image-top {
+            width: 35px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 55px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 66px;
+            color: gray;
+            width: 220px;
+            font-size: 13px;
+
+        }
+
+        footer {
+            background-color: rgb(95, 88, 95);
+            height: 200px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 170px;
+
+
+        }
+
+        .footer ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        footer ul li {
+            list-style: none;
+            margin: 120px 50px;
+            justify-content: space-evenly;
+
+        }
+
+
+        .footer>div {
+            width: 200px;
+
+        }
+
+        .image-footer {
+            width: 35px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        .image-footer:hover{
+            cursor: pointer;
+            background: linear-gradient(#0cd348,#d8b05b);
+            -webkit-text-fill-color: transparent;
+           }
+
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+
+            <div class="left"> Arshlan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li> <a href="Abut.html">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li> <a href="Project.html">Projects</a></li>
+                    <li> <a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection"> Hey My name is <span class="purple"> Arshlan khan </span>
+
+                <div>And I'am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                   <button><a href="ARSHALAN KHAN (1).pdf" class="btn" download>Download Resume</a></button> 
+
+                   <a href="https://github.com/dashboard" class="btn" target="_blank">Visit GitHub</a>
+                </div>
+            </div>
+            <div class="rightSecton">
+                <img src="PIcture.jpeg" alt="">
+
+            </div>
+        </section>
+        <hr>
+        <section class="secondSectio">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="BPO pic.png" alt="">
+                    <div class="vertical-title">
+                        BPO(Business Process Outsoucing) (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        I have work in a BPO sector Associate at Startek Pvt Ltd in Lucknow.
+                        Handled a flipkart and zomato DP(Delivery Partner) support.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="BikeCruze.jpg" alt="">
+                    <div class="vertical-title">
+                        BIKE_Cruze office management (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Managed daily office operations, including scheduling, correspondence, and administrative
+                        support.
+                        Maintained accurate records, documentation, and reports to support management decision-making.
+                        Provided customer support and handled inquiries to ensure excellent service delivery.
+                    </div>
+                </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Social Media Terms </h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/arshaankhan66/profilecard/?igsh=N2N3NWFhbXpsaGNw"
+                            target="_blank" rel="noopener noreferrer">
+                            <img class="image-footer" src="Insta.webp" alt="Instagram">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/mohd-arshlan-khan-1148b525a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank" rel="noopener noreferrer">
+                            <img class="image-footer" src="Linkedin.webp" alt="LinkedIn">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://t.me/arshlan_khan5" target="_blank" rel="noopener noreferrer">
+                            <img class="image-footer" src="Telegram.png" alt="Telegram">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.facebook.com/share/qSc4b97n7241gAQU/" target="_blank"
+                            rel="noopener noreferrer">
+                            <img class="image-footer" src="FB.png" alt="Facebook">
+                        </a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', '&amp; I have other Skill', ' Microsoft office and Tally.ERP9',],
+            typeSpeed: 100,
+        });
+    </script>
+</body>
+
+</html>

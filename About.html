@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>About Me</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+
+        }
+
+        /* Header */
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(63, 63, 161);
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white
+        }
+
+        nav ul li a:hover {
+            color: rgb(103, 171, 189);
+            font-size: 1.10rem;
+
+        }
+
+        footer button {
+            color: rgb(182, 117, 117);
+            margin: 0 1rem;
+            border: 5px solid;
+            border-radius: 10px;
+            font-size: 25px;
+        }
+
+        .btn a:hover {
+            text-decoration: none;
+            background-color: #e2b776;
+            font-size: 1.10rem;
+        }
+
+        /* About Section */
+        .about {
+            padding: 50px 20px;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #cacad1;
+
+        }
+
+        .details {
+            flex: 2;
+        }
+
+        .details h2 {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #772c2c;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .details p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .details h3 {
+            background-color: #181717;
+            text-align: center;
+            font-size: 24px;
+            margin: 25px 20px;
+            color: #b15858;
+        }
+
+        .skills {
+            list-style: cross-fade();
+            padding-left: 0;
+        }
+
+        .skills li {
+            list-style-position: inside;
+            font-size: 18px;
+            color: #1f1e1e;
+            margin: 15px 20px;
+
+        }
+
+        /* Footer */
+        footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+
+        <nav>
+
+           <h1><div class="left"> Arshlan's Portfolio</div></h1>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li> <a href="Abut.html">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li> <a href="Project.html">Projects</a></li>
+                    <li> <a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="details">
+                <h2>Career Objective</h2>
+                <p> <B>
+                        To create meaningful and impactful digital Experiences
+                        as a full-stack developer. Passionate about leveraging
+                        technology to solve real-world problem and enhance
+                        User interaction, Dedicated to continuous learning and
+                        growth in a collaborative environment Where I can
+                        contribute my skills and creativity to drive innovation..</B>
+                </p>
+                <h3>Skills:</h3>
+                <ul class="skills">
+                    <B>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>JAVA</li>
+                        <li>NodeJS</li>
+                        <li>React</li>
+                        <li>OOPSS Concept</li>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                        <li>C & C++</li>
+                        <li>Microsoft Office</li>
+                        <li>Tally.ERP9</li>
+                    </B>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Arshlan's Portfolio.</p>
+    </footer>
+</body>
+
+</html>

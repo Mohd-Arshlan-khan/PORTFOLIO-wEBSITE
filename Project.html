@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+
+    <style>
+        /* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            color: whitesmoke;
+            background-color: rgb(63, 63, 161);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white
+        }
+
+        nav ul li a:hover {
+            color: rgb(103, 171, 189);
+            font-size: 1.10rem;
+
+        }
+
+/* Project Section */
+.projects {
+    padding: 2rem;
+}
+
+.project {
+    background: white;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.project h2 {
+    margin: 0 0 1rem;
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.project p {
+    margin-bottom: 1rem;
+}
+
+.project ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem;
+}
+
+.project ul li {
+    margin-bottom: 0.5rem;
+}
+
+.project a.btn {
+    display: inline-block;
+    margin: 0.5rem 0;
+    padding: 0.8rem 1.2rem;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.project a.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+
+        <nav>
+
+          <h1><div class="left"> Arshlan's Portfolio</div></h1>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li> <a href="Abut.html">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li> <a href="Project.html">Projects</a></li>
+                    <li> <a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="projects">
+            <article class="project">
+                <h2>Project 1: E-Commerce Website</h2>
+                <p>This is an e-commerce website built using JSP, Servlets, and MySQL. It includes features like a shopping cart, user authentication, and payment integration.</p>
+                <ul>
+                    <li><strong>Technology:</strong> Java, JSP, Servlets, MySQL</li>
+                    <li><strong>Role:</strong> Full-Stack Developer</li>
+                </ul>
+                <a href="https://github.com/Mohd-Arshlan-khan/e-Commerce" target="_blank" class="btn">View on GitHub</a>
+                <a href="ecommerce_demo.mp4" download class="btn">Download Demo</a>
+            </article>
+
+
+            <article class="project">
+                <h2>Project 2: Dynamic--Project</h2>
+                <p>A personal Dynamic website to showcase my skills, built using React native,HTML, CSS, and JavaScript with responsive design.</p>
+                <ul>
+                    <li><strong>Technology:</strong>  React native, HTML, CSS, JavaScript</li>
+                    <li><strong>Role:</strong> Designer & Developer</li>
+                </ul>
+                <a href="https://github.com/Mohd-Arshlan-khan/Dynamic--Project" target="_blank" class="btn">Visit Website</a>
+                <a href="https://github.com/Mohd-Arshlan-khan/Dynamic--Project.git" download class="btn">Download Source Code</a>
+            </article>
+
+
+            <article class="project">
+                <h2>Project 3: Portfolio Website</h2>
+                <p>A personal portfolio website to showcase my projects and skills, built using HTML, CSS, and JavaScript with responsive design.</p>
+                <ul>
+                    <li><strong>Technology:</strong> HTML, CSS, JavaScript</li>
+                    <li><strong>Role:</strong> Designer & Developer</li>
+                </ul>
+                <a href="https://yourportfolio.com" target="_blank" class="btn">Visit Website</a>
+                <a href="portfolio_source_code.zip" download class="btn">Download Source Code</a>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Arshlan's Portfolio.</p>
+    </footer>
+</body>
+</html>
